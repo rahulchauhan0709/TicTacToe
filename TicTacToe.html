@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel = 'stylesheet' type = 'text/css' href = 'TicTacToe.css'>
+        <script src = 'TicTacToe.js' type = 'application/ecmascript'></script>
+    </head>
+    
+    <body>
+        <h2 id='header'>TicTacToe : Player vs Computer</h2>
+        <div id='gradient'></div>
+        <div id='container'>
+            <div id='end'>
+                    <h2 id='winner'></h2>
+                    <input class='button' type='submit' value='PLAY AGAIN'>
+                </div>
+                <div id='first'></div>
+                <div id='second'></div>
+                <div id='third'></div>
+                <div id='fourth'></div>
+                <div id='fifth' ></div>
+                <div id='sixth'></div>
+                <div id='seventh'></div>
+                <div id='eighth'></div>
+                <div id='ninth'></div>
+            
+            </div>
+        
+        <script>
+            function init(){
+                TicTacToe.init();
+            }
+            window.addEventListener('load',init);
+        </script>
+    </body>
+</html>
